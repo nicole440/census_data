@@ -1,1 +1,3 @@
 # census_data
+
+This Python script, utilizing Pandas within a Jupyter Notebook, conducts further cleaning and merging of preprocessed U.S. Census datasets. It addresses the issue of missing county names in the original municipal dataset by matching them with state and county FIPS codes from the county dataset. Additionally, it integrates U.S. Census place list data into the municipal dataset based on state and place FIPS codes, resulting in a consolidated dataset for further use.
